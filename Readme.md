@@ -2,6 +2,8 @@
 
 ## Docker Command:
 
+Note: Do modify environment variable in dockerfile
+
 ### 1. Building Image:
 ```bash
 docker build -t s3_connect_nodejs .
