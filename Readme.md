@@ -1,4 +1,4 @@
-# Docker and Command Line Setup for S3 Connect Node.js
+# Command to Setup Project
 
 ## Docker Command:
 
