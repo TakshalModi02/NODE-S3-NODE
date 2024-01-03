@@ -1,0 +1,3 @@
+docker build -t s3_connect_nodejs .
+
+docker run -p 8000:8000 --name s3_connect_nodejs -v ${pwd}:/usr/src/app s3_connect_nodejs

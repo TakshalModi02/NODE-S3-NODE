@@ -1,0 +1,22 @@
+{
+  "name": "s3_connect_nodejs",
+  "version": "1.0.0",
+  "description": "This is demo project to connect to S3 with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.484.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.2",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
